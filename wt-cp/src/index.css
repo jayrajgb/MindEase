@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mr+Dafoe&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -17,14 +20,6 @@ code {
     monospace;
 }
 
-::-webkit-scrollbar{
-  width: 0.25rem;
-}
-
-::-webkit-scrollbar-thumb{
-  background-color: rgb(10, 180, 250);
-}
-
-::-webkit-scrollbar-track{
-  background-color: black;
+.nav-effect{
+  color: rgb(10, 180, 250);
 }

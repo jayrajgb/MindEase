@@ -1,0 +1,28 @@
+.tipspage{
+    padding: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.tipspage .heading{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sub-heading{
+    margin-top: 2rem;
+    text-decoration: underline rgb(10, 180, 250);
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+ol li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}

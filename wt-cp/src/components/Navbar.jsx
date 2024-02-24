@@ -1,20 +1,21 @@
 import React from 'react'
 import "./Navbar.css"
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div>
       <nav>
         <div className="nav-left">
-            Comfort Counsel
+          <NavLink to="/">MINDEASE</NavLink>
         </div>
         <div className="nav-right">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Tips</a></li>
-                <li><a href="">Test</a></li>
-                <li><a href="">Books</a></li>
-                <li><a href="">About</a></li>
+                <li><NavLink className={(e)=>{return e.isActive?"nav-effect": ""}} to="/">Home</NavLink></li>
+                <li><NavLink className={(e)=>{return e.isActive?"nav-effect": ""}} to="/tips">Tips</NavLink></li>
+                <li><NavLink className={(e)=>{return e.isActive?"nav-effect": ""}} to="/test">Test</NavLink></li>
+                <li><NavLink className={(e)=>{return e.isActive?"nav-effect": ""}} to="/books">Books</NavLink></li>
+                <li><NavLink className={(e)=>{return e.isActive?"nav-effect": ""}} to="/about">About</NavLink></li>
             </ul>
         </div>
       </nav>
